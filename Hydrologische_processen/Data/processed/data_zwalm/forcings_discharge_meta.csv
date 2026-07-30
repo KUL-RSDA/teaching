@@ -1,0 +1,5 @@
+,id,name,unit,longitude,latitude,x,y
+Precipitation,P06_014,Maarke-Kerkem_P,mm,3.67094342051386,50.8189747206708,100828.0,167846.0
+Precipitation of catchment,L06_342,Nederzwalm/Zwalmbeek,mm,3.68613009931732,50.885418346256,101966.0,175227.0
+Potential Evapotranspiration,ME05_019,Waregem_ME,mm,3.41131849113193,50.8614920135348,82595.0,172779.0
+River Discharge,L06_342,Nederzwalm/Zwalmbeek,m³/s,3.68613009931732,50.885418346256,101966.0,175227.0

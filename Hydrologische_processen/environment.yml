@@ -1,0 +1,23 @@
+name: hydroprocess_env
+channels:
+  - defaults
+dependencies:
+  - contextily=1.7
+  - dask=2026.3
+  - geocube=0.7
+  - geodatasets=2026.5
+  - geopandas=1.1
+  - great_tables=0.22
+  - jupyter-cache=1.0
+  - jupyterlab=4.4
+  - loguru=0.7
+  - matplotlib=3.10
+  - netcdf4=1.7
+  - numpy=2.4
+  - openeo=0.33
+  - owslib=0.35
+  - pip
+  - python=3.13
+  - rioxarray=0.22
+  - sympy=1.14
+  - openpyxl
