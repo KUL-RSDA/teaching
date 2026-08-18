@@ -1,5 +1,6 @@
 name: hydroprocess_env
 channels:
+  - conda-forge
   - defaults
 dependencies:
   - contextily=1.7
@@ -21,3 +22,5 @@ dependencies:
   - rioxarray=0.22
   - sympy=1.14
   - openpyxl
+  - nbstripout
+  - rootutils
