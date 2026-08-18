@@ -216,6 +216,3 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-
-# TODO: fix this
-Hydrologische_processen/Data/QGIS/*
