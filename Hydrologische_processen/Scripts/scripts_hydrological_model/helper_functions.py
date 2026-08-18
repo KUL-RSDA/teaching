@@ -4,7 +4,7 @@ import pandas as pd
 import os, sys, rootutils
 from pathlib import Path
 
-ROOT_PATH = rootutils.find_root(search_from=Path.cwd(), indicator=".git")
+ROOT_PATH = rootutils.find_root(search_from=Path.cwd(), indicator=["environment.yml", "Data", "Scripts"])
 sys.path.append(str(ROOT_PATH))
 
 from Scripts.constants import (

@@ -8,7 +8,7 @@ from pathlib import Path
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 
 # --- hard coded paths ---
-ROOT_PATH = rootutils.find_root(search_from=Path.cwd(), indicator=".git")
+ROOT_PATH = rootutils.find_root(search_from=Path.cwd(), indicator=["environment.yml", "Data", "Scripts"])
 sys.path.append(str(ROOT_PATH))
 ROOTDIR_DATA = os.path.join(ROOT_PATH, "Data", "processed")
 sys.path.append(ROOTDIR_DATA)

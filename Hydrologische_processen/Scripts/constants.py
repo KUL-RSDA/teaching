@@ -2,9 +2,10 @@
 import os, sys
 import geopandas as gpd
 import rootutils
+from pathlib import Path
 
 # --- hard coded paths ---
-ROOT_PATH = rootutils.find_root(search_from=__file__, indicator=".git")
+ROOT_PATH = rootutils.find_root(search_from=Path.cwd(), indicator=["environment.yml", "Data", "Scripts"])
 sys.path.append(str(ROOT_PATH))
 ROOTDIR_DATA = os.path.join(ROOT_PATH, "Data")
 sys.path.append(ROOTDIR_DATA)

@@ -1,6 +1,6 @@
 from pathlib import Path
 import rootutils, sys
-ROOT_PATH = rootutils.find_root(search_from=__file__, indicator=".git")
+ROOT_PATH = rootutils.find_root(search_from=Path.cwd(), indicator=["environment.yml", "Data", "Scripts"])
 sys.path.append(str(ROOT_PATH))
 import numpy as np
 import pandas as pd

@@ -10,8 +10,8 @@ import sys, rootutils, warnings
 from pathlib import Path
 from collections.abc import Callable
 
-root_path = rootutils.find_root(search_from=Path.cwd(), indicator=".git")
-sys.path.append(str(root_path))
+ROOT_PATH = rootutils.find_root(search_from=Path.cwd(), indicator=["environment.yml", "Data", "Scripts"])
+sys.path.append(str(ROOT_PATH))
 
 from Scripts.scripts_hydrological_model.model import (
     ForcingsTimeSeries,
