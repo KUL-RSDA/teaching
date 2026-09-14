@@ -24,3 +24,4 @@ dependencies:
   - openpyxl
   - nbstripout
   - rootutils
+  - ipykernel
